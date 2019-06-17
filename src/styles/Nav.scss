@@ -1,0 +1,21 @@
+$navTile: #009;
+$navHover: #00F;
+$white: #FFF;
+
+nav {
+    display: flex;
+    background-color: $navTile;
+    div {
+        display: flex;
+        padding: 15px;
+        border-right: 2px solid $white;
+        color: $white;
+        &:hover{
+            background-color: $navHover;
+            cursor: pointer;
+        }
+        &.active{
+            background-color: $navHover;
+        }
+    }
+}

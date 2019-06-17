@@ -1,0 +1,10 @@
+@import './colors';
+
+header {
+    background-color: $headerBg;
+}
+
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+}
